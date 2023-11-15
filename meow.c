@@ -2,6 +2,12 @@
 
 int main(void)
 {
+    // while (true) or while (1) same thing
+    // while (flase) or while (0) same thing
+    while (true)
+    {
+        printf("meow\n");
+    }
     /*
     int i = 0;
     while (i < 3)
@@ -14,5 +20,4 @@ int main(void)
     printf("meow\n");
     }
     */
-   
 }
