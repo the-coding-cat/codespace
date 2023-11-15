@@ -9,4 +9,8 @@ int main(void)
         printf("meow\n");
         i++;
     }
+    for (int f = 0; f < 3; f++)
+    {
+    printf("meow\n");
+    }
 }
