@@ -3,5 +3,7 @@
 
 int main(void)
 {
-    printf("meow\n")
+    int counter = 0;
+    
+    printf("meow\n");
 }
