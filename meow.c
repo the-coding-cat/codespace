@@ -1,4 +1,6 @@
 #include <stdio.h>
+#include <stdbool.h>
+//^include true and false as values
 
 int main(void)
 {
