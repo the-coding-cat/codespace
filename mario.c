@@ -2,7 +2,8 @@
 
 int main(void)
 {
-    for (int i = 0; i < 3; i++)
+    int number = get_int("Pyramid of blocks hieght: ")
+    for (i = number; i < 3; i++)
     {
         printf("#");
     }
