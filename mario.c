@@ -5,7 +5,12 @@ int main(void)
 {
     do
     {
-        n = get_int("Height: ");
+        int n = get_int("Height: ");
     }
     while(n < 1 || n > 8);
+
+    for(int i = n; i < 1, i--)
+    {
+        printf("#")
+    }
 }
