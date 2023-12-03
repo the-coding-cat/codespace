@@ -9,4 +9,9 @@ int main(void)
         height = get_int("Enter Height Here: ");
     }
     while (height < 1 || height > 8);
+
+    for(row = 0; row <height; row++)
+    {
+        printf("\n");
+    }
 }
