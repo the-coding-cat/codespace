@@ -3,14 +3,10 @@
 
 int main(void)
 {
+    int height;
     do
     {
-        int n = get_int("Height: ");
+        height = get_int("Enter Height Here: ");
     }
-    while(n < 1 || n > 8);
-
-    for(int i = n; i < 1, i--)
-    {
-        printf("#")
-    }
+    while (height < 1 || height > 8);
 }
