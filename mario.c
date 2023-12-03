@@ -3,7 +3,7 @@
 
 int main(void)
 {
-    int height;
+    int height, row, column;
     do
     {
         height = get_int("Enter Height Here: ");
@@ -13,5 +13,9 @@ int main(void)
     for(row = 0; row <height; row++)
     {
         printf("\n");
+        for(column = 0; column < height; column++)
+        {
+            printf("#");
+        }
     }
 }
