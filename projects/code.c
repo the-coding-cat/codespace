@@ -23,6 +23,31 @@ int main(void)
 
     If you need to print out "/" just put two // and it will print out one */
 
-    
+    //int x; //decelaration
+    //x = 123; //initailization
+    //int y = 321; //d + i
+
+    //int age = 21; //intiger
+    //float gpa = 3.7; //floating point number
+    //char grade = 'B'; //when declaring a char you have to put it in sigal qoutes when I
+    //char name[] = "Amy"; //not object orented and stings are objects. So you use an array
+    // of chars to make a name, rememeber double quotes.
+
+    //printf("hello %s\n", name); //s for string
+    //printf("you are %d years old\n", age); //d for decimal or digit
+    //printf("Your average garde is %c\n", grade); //c for character
+    //printf("Your GPA is %f\n", gpa); //f for float
+
+    char a = 'c' //store a single character %c
+    char b[] = "Panda" // array of characters %s
+
+    float c = 3.141592 //4 bytes (32 bits of precision) 6-7 digits %f
+    double d = 3.14592653589793 //8 bytes (64 bits of precision) 15-16 digits %lf
+
+    bool e = true; //1 byte (true or false) %d
+
+    int j = 2146354; //4 bytes (-2,147,483 to +2,147,483,467) %d
+
+
     return 0;
 }
