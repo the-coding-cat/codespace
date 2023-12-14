@@ -43,6 +43,9 @@ int main(void)
 
     float c = 3.141592 //4 bytes (32 bits of precision) 6-7 digits %f
     double d = 3.14592653589793 //8 bytes (64 bits of precision) 15-16 digits %lf
+    //to add more digits than the cut off in the %f or %lf you can use a 0.
+    // and the specify how many digits after the decimal to print for example %0.15dl
+    //to print 15 digits after the decimal
 
     bool e = true; //1 byte (true or false) %d
 
