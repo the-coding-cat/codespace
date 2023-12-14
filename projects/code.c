@@ -49,6 +49,9 @@ int main(void)
     //to print 15 digits after the decimal
 
     bool e = true; //1 byte (true or false) %d inlude <stdbool.h> to work with them
+    // 1 = true, 0 = flase
+
+    char f = 100; //you can store a whol int for -128 to +127 %d or %c
 
     int j = 2146354; //4 bytes (-2,147,483 to +2,147,483,467) %d
 
