@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdbool.h>
 
 int main(void)
 {
@@ -47,7 +48,7 @@ int main(void)
     // and the specify how many digits after the decimal to print for example %0.15dl
     //to print 15 digits after the decimal
 
-    bool e = true; //1 byte (true or false) %d
+    bool e = true; //1 byte (true or false) %d inlude <stdbool.h> to work with them
 
     int j = 2146354; //4 bytes (-2,147,483 to +2,147,483,467) %d
 
