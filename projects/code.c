@@ -68,7 +68,8 @@ int main(void)
 
     long long int l = 9223372036854775807; //8bytes (-9 quintillion to +9 quintillion) %lld
     // normal ints are already considered long ints thus we need to specify long long here
-    unsigned long long int m = 18446744073709551615; //8 bytes (0 to +18 quintillion) %llu
+    unsigned long long int m = 18446744073709551615U; //8 bytes (0 to +18 quintillion) %llu
+    //the U is there to prevent a warning reguarding the legnth of the number
 
     return 0;
 }
