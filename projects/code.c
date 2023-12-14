@@ -55,10 +55,11 @@ int main(void)
     //%d to print out '100' or %c to print out the ascii table character that
     //is represented by 100 or d.
     unsigned char g = 225; //1 byte (0 to +255) we direguad nagtive numbers %d or %c
+    // if you go over the limit it will overflow and go back to 0. 
 
     int j = 2146354; //4 bytes (-2,147,483 to +2,147,483,467) %d
 
-    
+
 
 
     return 0;
