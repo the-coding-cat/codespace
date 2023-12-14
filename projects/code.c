@@ -51,9 +51,14 @@ int main(void)
     bool e = true; //1 byte (true or false) %d inlude <stdbool.h> to work with them
     // 1 = true, 0 = flase
 
-    char f = 100; //you can store a whol int for -128 to +127 %d or %c
+    char f = 100; //1 byte you can store a whol int for -128 to +127
+    //%d to print out '100' or %c to print out the ascii table character that
+    //is represented by 100 or d.
+    unsigned char g = 225; //1 byte (0 to +255) we direguad nagtive numbers %d or %c
 
     int j = 2146354; //4 bytes (-2,147,483 to +2,147,483,467) %d
+
+    
 
 
     return 0;
