@@ -55,12 +55,20 @@ int main(void)
     //%d to print out '100' or %c to print out the ascii table character that
     //is represented by 100 or d.
     unsigned char g = 225; //1 byte (0 to +255) we direguad nagtive numbers %d or %c
-    // if you go over the limit it will overflow and go back to 0. 
+    // if you go over the limit it will overflow and go back to 0.
+
+    short int h = 32756; //2 bytes (-32,768 to +32,767) %d
+    // overflow rested the value to the minimunm value.
+    //you dont have to delcare them as ints you can just use "short"
+    unsigned short int = 65535; //2 bytes (0 to +65,535)
 
     int j = 2146354; //4 bytes (-2,147,483 to +2,147,483,467) %d
+    unsigned int k = 4294967295 //4 bytes (0 to +4,294,967,295) %u
+    //need to be refrenced as an unsigned int
 
-
-
+    long long int l = 9223372036854775807; //8bytes (-9 quintillion to +9 quintillion) %lld
+    // normal ints are already considered long ints thus we need to specify long long here
+    unsigned long long int m = 18446744073709551615; //8 bytes (0 to +18 quintillion) %llu
 
     return 0;
 }
