@@ -11,7 +11,7 @@ int main(void)
     Cringe
     */
 
-    
+
    /* Escape sequence  = characters combination consisting of a backslash \
    followed by a letter or combination of digits.
    They follow specifu actions within a line or string of text.
@@ -62,7 +62,7 @@ int main(void)
     short int h = 32756; //2 bytes (-32,768 to +32,767) %d
     // overflow rested the value to the minimunm value.
     //you dont have to delcare them as ints you can just use "short"
-    unsigned short int = 65535; //2 bytes (0 to +65,535)
+    unsigned short int i = 65535; //2 bytes (0 to +65,535)
 
     int j = 2146354; //4 bytes (-2,147,483 to +2,147,483,467) %d
     unsigned int k = 4294967295 //4 bytes (0 to +4,294,967,295) %u
